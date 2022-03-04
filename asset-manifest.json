@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/w3_template/static/css/main.92dc924e.css",
+    "main.js": "/w3_template/static/js/main.99e93bb1.js",
+    "static/js/787.6e6610ab.chunk.js": "/w3_template/static/js/787.6e6610ab.chunk.js",
+    "static/media/themify.svg?-fvbane": "/w3_template/static/media/themify.f0fc8c798eac5636249c.svg",
+    "static/media/sailboat.jpg": "/w3_template/static/media/sailboat.c766b76fb0102dcbe759.jpg",
+    "static/media/themify.eot": "/w3_template/static/media/themify.9bad94440d49256265a5.eot",
+    "static/media/themify.ttf?-fvbane": "/w3_template/static/media/themify.eda8b94308c6f538f04a.ttf",
+    "static/media/themify.woff?-fvbane": "/w3_template/static/media/themify.29b39089170885ae2967.woff",
+    "static/media/mountains.jpg": "/w3_template/static/media/mountains.6acd1c8c891cbbd6edff.jpg",
+    "static/media/snow.jpg": "/w3_template/static/media/snow.9dc085ddb2814b394376.jpg",
+    "static/media/lights.jpg": "/w3_template/static/media/lights.84bc44f4e214775d7954.jpg",
+    "index.html": "/w3_template/index.html",
+    "main.92dc924e.css.map": "/w3_template/static/css/main.92dc924e.css.map",
+    "main.99e93bb1.js.map": "/w3_template/static/js/main.99e93bb1.js.map",
+    "787.6e6610ab.chunk.js.map": "/w3_template/static/js/787.6e6610ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92dc924e.css",
+    "static/js/main.99e93bb1.js"
+  ]
+}
