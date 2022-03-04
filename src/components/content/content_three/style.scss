@@ -1,0 +1,104 @@
+.contentthree {
+    .content {
+        text-align: center;
+        margin-top: 52px;
+        padding-top: 38px;
+
+        span {
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 203px;
+        }
+
+        p {
+            padding-top: 15px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .box-pricing {
+        display: flex;
+        justify-content: center;
+
+        .pricing {
+            width: 30%;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            .content-pricing {
+                height: 101px;
+                background-color: #000;
+                color: #fff;
+                font-size: 24px;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+                p {
+                    line-height: 101px;
+                }
+
+            }
+
+            .main-content {
+                text-align: center;
+                height: 55px;
+                line-height: 55px;
+                border: 1px solid #DDDDDD;
+                font-size: 15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            }
+
+            .cost {
+                text-align: center;
+                height: 120px;
+                border: 1px solid #DDDDDD;
+                font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+                h2 {
+                    margin-top: 30px;
+                    font-size: 30px;
+                }
+
+                pre {
+                    font-size: 15px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: #000000;
+                    opacity: 0.6;
+                    margin-top: 5px;
+                }
+            }
+
+            .sign-up {
+                height: 94px;
+                border: 1px solid #DDDDDD;
+                background-color: #f0f0f0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                button {
+                    height: 46px;
+                    width: 127px;
+                    background-color: #009688;
+                    color: #fff;
+                    font-size: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    border: none;
+                }
+            }
+
+            button:hover {
+                background-color: #ccc;
+                color: #000;
+                cursor: pointer;
+            }
+        }
+
+        .pricing:hover {
+            box-shadow: 5px 5px 10px gray;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.contentwo {
+    background-color: #333333;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    .quater-text {
+        color: #fff;
+        width: 40%;
+        margin: 55px 10px 0px 13px;
+
+        p {
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 10px;
+        }
+    }
+
+    .quater {
+        color: #333333;
+        width: 40%;
+        margin-top: 55px;
+        margin: 55px 14px 0px 0px;
+        background-color: #fff;
+        padding-bottom: 20px;
+
+        h3 {
+
+            margin-left: 10px;
+        }
+
+        h4 {
+            margin-left: 10px;
+        }
+
+        p {
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        img {
+
+            width: 100%;
+        }
+    }
+
+    .ti-plus {
+        position: absolute;
+        background-color: #009688;
+        bottom: -25px;
+        right: 25px;
+        border-radius: 50%;
+        color: #fff;
+        padding: 10px 10px;
+        font-size: 25px;
+    }
+
+    .ti-plus:hover {
+        background-color: #ccc;
+        color: #000;
+        cursor: pointer;
+    }
+}
+
+.vertical-nav {
+    height: 100%;
+    width: 20%;
+    z-index: 2;
+    position: fixed;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    box-shadow: 0.5px 0.5px 10px grey;
+
+    .close {
+        color: #009688;
+
+        p {
+            font-size: 36px;
+            margin-left: 10px;
+            padding-bottom: 5px;
+
+            .ti-close {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .close:hover {
+        background-color: grey;
+        color: #000;
+    }
+
+    .nav {
+        margin-top: 100px;
+
+        ul {
+            li {
+                font-size: 36px;
+
+                a {
+                    color: #000;
+                    display: block;
+                    padding: 30px 10px;
+                }
+            }
+
+            li:hover a {
+                background-color: #ccc;
+            }
+        }
+    }
+}
+
+.vertical-nav-none {
+    display: none;
+}

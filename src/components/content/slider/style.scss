@@ -1,0 +1,116 @@
+.slider {
+    position: relative;
+    margin-top: 38px;
+    background-image: url('../../../Img/sailboat.jpg');
+    width: 100%;
+    padding-top: 37%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .content {
+        background-color: #000;
+        position: absolute;
+        padding: 10px 10px;
+
+        p {
+            font-size: 24px;
+            color: #fff;
+        }
+
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .content:hover {
+        background-color: #009688;
+        cursor: pointer;
+    }
+
+    .modal {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        justify-content: center;
+        display: flex;
+
+        .modal-content {
+            width: 900px;
+            height: 230px;
+            display: inline-block;
+            margin-top: 100px;
+
+            .first-content {
+                height: 87px;
+                background-color: #009688;
+
+                h4 {
+                    color: #fff;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    padding-top: 8px;
+                    padding-left: 10px;
+                    display: inline-block;
+                }
+
+                .ti-close {
+                    color: #fff;
+                    float: right;
+                    padding: 5px 10px;
+                }
+
+                .ti-close:hover {
+                    background-color: #ccc;
+                    color: #000;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: #fff;
+                    margin-top: 20px;
+                    margin-left: 10px;
+                }
+
+            }
+
+            .middle-content {
+                height: 90px;
+                background-color: #fff;
+
+                p {
+                    padding: 10px 10px;
+
+                    u {
+                        color: #009688;
+                        text-decoration: underline;
+                    }
+
+                    u:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .end-content {
+                height: 53px;
+                background-color: #009688;
+
+                p {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: #fff;
+                    padding-top: 18px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+.modal-none {
+    display: none;
+}

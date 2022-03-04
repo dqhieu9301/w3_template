@@ -1,0 +1,83 @@
+.header {
+    height: 38px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
+    .nav {
+        position: relative;
+        display: inline-block;
+
+        .navbar {
+            li {
+                display: inline-block;
+                position: relative;
+
+                a {
+                    text-decoration: none;
+                    font-size: 15px;
+                    color: #fff;
+                    line-height: 38px;
+                    display: inline-block;
+                    padding: 0 16px;
+
+                    .ti-home {
+                        color: #fff;
+                        font-size: 13px;
+                        padding-right: 10px;
+                    }
+
+                    .ti-angle-down {
+                        color: #fff;
+                        font-size: 13px;
+                    }
+
+                }
+
+                .subnav {
+                    position: absolute;
+                    display: none;
+
+                    li {
+                        display: block;
+                        background-color: #ccc;
+
+                        a {
+                            padding-right: 100px;
+                        }
+                    }
+                }
+
+            }
+
+            li:hover a {
+                background-color: #ccc;
+                color: #000;
+            }
+
+            li:hover .subnav {
+                display: block;
+            }
+
+            .subnav li:hover a {
+                background-color: #fff;
+            }
+        }
+    }
+
+    .ti-search {
+        color: #fff;
+        display: inline;
+        float: right;
+        line-height: 38px;
+        padding: 0 20px;
+    }
+
+    .ti-search:hover {
+        background-color: #009688 !important;
+    }
+}
