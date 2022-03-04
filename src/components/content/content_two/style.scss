@@ -116,3 +116,53 @@
 .vertical-nav-none {
     display: none;
 }
+
+@media screen and (max-width:739px) {
+    .contentwo {
+        display: block;
+
+        .quater-text {
+            margin: 0 auto;
+            display: block;
+            width: 80%;
+
+            h2 {
+                padding-top: 40px;
+            }
+        }
+
+        .quater {
+            margin: 0 auto;
+            display: block;
+            margin-top: 40px;
+            width: 80%;
+        }
+
+        .vertical-nav {
+            .close {
+                margin-top: 40px;
+
+                p {
+                    font-size: 20px;
+
+                    .ti-close {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .nav {
+                margin-top: 100px;
+
+                ul {
+                    li {
+                        font-size: 20px;
+
+                    }
+
+
+                }
+            }
+        }
+    }
+}

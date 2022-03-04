@@ -7,6 +7,7 @@
     left: 0px;
     top: 0px;
     right: 0px;
+    overflow: hidden;
 
     .nav {
         position: relative;
@@ -69,6 +70,14 @@
         }
     }
 
+    .ti-menu {
+        color: #fff;
+        display: none;
+        float: right;
+        line-height: 38px;
+        padding: 0 20px;
+    }
+
     .ti-search {
         color: #fff;
         display: inline;
@@ -77,7 +86,43 @@
         padding: 0 20px;
     }
 
+    .ti-menu:hover,
     .ti-search:hover {
         background-color: #009688 !important;
+        cursor: pointer;
+    }
+}
+
+// mobile 
+@media screen and (max-width:739px) {
+    .header {
+        .nav {
+            margin-top: 38px;
+            width: 100%;
+
+            .navbar {
+                width: 100%;
+
+                li {
+                    display: block;
+
+                    a {
+                        display: block;
+                        text-align: inherit;
+                    }
+                }
+            }
+        }
+
+        .ti-search {
+            display: none;
+        }
+
+        .ti-menu {
+            display: inline;
+            top: 0px;
+            right: 0px;
+            position: absolute;
+        }
     }
 }

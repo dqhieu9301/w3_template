@@ -114,3 +114,16 @@
 .modal-none {
     display: none;
 }
+
+@media screen and (max-width:739px) {
+    .slider {
+        .content {
+            width: 130px;
+            height: 40px;
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.scss'
 import '../../themify-icons-font/themify-icons/themify-icons.css'
 const Header = () => {
+    // open-close menu mobile
+    const [openMenu, setOpenMenu] = useState(false)
+    const handleOnclickMenu = () => {
+        setOpenMenu(!openMenu)
+    }
     return (
-        <div className='header'>
+        <div className='header' style={{ height: openMenu ? 'auto' : '38px' }}>
             <div className="nav">
                 <ul className='navbar'>
                     <li>
@@ -24,6 +29,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className='ti-search'></div>
+            <div className='ti-menu' onClick={handleOnclickMenu}></div>
         </div>
     )
 }
