@@ -2,7 +2,7 @@
   "name": "w3_template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dqhieu.github.io/w3_template/",
+  "homepage": "https://dqhieu9301.github.io/w3_template/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
