@@ -2,12 +2,11 @@
     height: 38px;
     background-color: #000;
     position: fixed;
-    width: 100%;
-    z-index: 1;
-    left: 0px;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    z-index: 2;
     overflow: hidden;
+    right: 0;
+    left: 0;
 
     .nav {
         position: relative;
@@ -94,8 +93,11 @@
 }
 
 // mobile 
-@media screen and (max-width:739px) {
+@media (max-width:740px) {
     .header {
+        height: 38px;
+
+
         .nav {
             margin-top: 38px;
             width: 100%;
@@ -104,7 +106,7 @@
                 width: 100%;
 
                 li {
-                    display: block;
+                    display: inline;
 
                     a {
                         display: block;

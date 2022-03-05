@@ -39,8 +39,8 @@
         display: flex;
 
         .modal-content {
-            width: 900px;
-            height: 230px;
+            width: 90%;
+
             display: inline-block;
             margin-top: 100px;
 
@@ -115,8 +115,41 @@
     display: none;
 }
 
-@media screen and (max-width:739px) {
+@media only screen and (max-width:740px) {
     .slider {
+        .modal {
+            .modal-content {
+                .first-content {
+                    height: 60px;
+                    font-size: 12px;
+
+                    p {
+                        margin-top: 7px;
+                    }
+                }
+
+                .middle-content {
+                    height: 63px;
+
+                    p {
+                        padding-top: 10px;
+                    }
+
+                    p {
+                        padding-top: 3px;
+                    }
+                }
+
+                .end-content {
+                    height: 40px;
+
+                    p {
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+
         .content {
             width: 130px;
             height: 40px;
